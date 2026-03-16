@@ -50,7 +50,7 @@ export default function ResumeModal({ isOpen, onClose }) {
               </h3>
               <div style={{ display: 'flex', alignItems: 'center', gap: '12px' }}>
                 <a
-                  href="/resume.pdf?v=1"
+                  href="/resume.pdf?v=2"
                   download="Suraj_Patidar_Resume.pdf"
                   style={{
                     display: 'flex',
@@ -99,7 +99,7 @@ export default function ResumeModal({ isOpen, onClose }) {
             {/* Body - PDF Viewer */}
             <div style={{ flex: 1, display: 'flex', flexDirection: 'column', minHeight: '70vh', backgroundColor: '#e2e8f0' }}>
               <iframe
-                src="/resume.pdf?v=1"
+                src="/resume.pdf?v=2"
                 title="Suraj Patidar Resume"
                 style={{
                   width: '100%',
@@ -110,7 +110,7 @@ export default function ResumeModal({ isOpen, onClose }) {
               >
                 <p style={{ padding: '20px', textAlign: 'center' }}>
                   Your browser cannot display the PDF.{' '}
-                  <a href="/resume.pdf?v=1" download="Suraj_Patidar_Resume.pdf" style={{ color: '#4f46e5' }}>
+                  <a href="/resume.pdf?v=2" download="Suraj_Patidar_Resume.pdf" style={{ color: '#4f46e5' }}>
                     Click here to download it.
                   </a>
                 </p>
