@@ -42,12 +42,12 @@ export default function Projects() {
     {
       title: 'US Suicide Death Rates Predictive Analysis',
       description: 'A predictive analysis project modeling U.S. suicide death rates based on demographic factors like sex, race, Hispanic origin, and age. Uses machine learning to uncover significant predictors.',
-      image: '/Predictive.jpg',
+      image: 'https://images.unsplash.com/photo-1504868584819-f8e8b4bffa25?w=800&auto=format&fit=crop&q=80',
       category: ['Predictive Analysis', 'Data Visualization'],
       tags: ['Python', 'Machine Learning', 'Data Science'],
       sourceCode: 'https://github.com/SurajPatidar22/Predictive-Analysis-of-U.S.-Suicide-Death-Rates-by-Sex-Race-Hispanic-Origin-and-Age',
       featured: true,
-      fallbackImg: 'https://images.unsplash.com/photo-1504868584819-f8e8b4bffa25?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80'
+      fallbackImg: 'https://images.unsplash.com/photo-1504868584819-f8e8b4bffa25?w=800&auto=format&fit=crop&q=80'
     }
   ];
 
